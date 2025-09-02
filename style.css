@@ -1,0 +1,141 @@
+body{
+  background-color: #202020;
+  color: white;
+  margin: 0%;
+  padding: 0%;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header{
+  margin: 0%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background-color: #107AB0;
+  padding: 5px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  background-color: #107AB0;
+}
+
+h2{
+  color: #107AB0;
+}
+
+.link{
+  margin-top: 20px;
+}
+
+a{
+  color: white;
+  margin: 1px;
+  text-decoration: none;
+}
+
+.divStyle{
+  text-align: center;
+  margin: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 1px;
+  border-radius: 10px;
+  background-color: white;
+  color: #202020;
+}
+
+.divStyleSmallCards{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.divCard{
+  background-color: #107AB0;
+  color: white;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+h5{
+  flex: 1;
+  background-color: #107AB0;
+  color: white;
+  padding: 10px;
+  margin: 1px;
+  border-radius: 10px;
+}
+
+.formStyle{
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.formElement{
+  margin: 5px;
+  padding: 5px;
+  border: #202020 solid 2px;
+  border-radius: 10px;
+  resize: none;
+}
+
+.formButton{
+  margin: 5px;
+  padding: 5px;
+  background-color: #107AB0;
+  color: white;
+  border: #202020 2px solid;
+  border-radius: 10px;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.formButton:hover{
+  background-color: #12658f;
+  color: rgb(202, 202, 202);
+}
+
+.timeline{
+  display: flex;
+}
+
+section{
+  text-align: left;
+  background-color: #107AB0;
+  color: white;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding: 1px;
+  border: #107AB0 solid 1px;
+  border-radius: 20px;
+}
+
+section p{
+  padding: 3px;
+}
+
+.year{
+  padding: 1px;
+  display: list-item;
+  font-size: 20px;
+}
+
+
+.line{
+  margin: 10px;
+  padding: 2px;
+  background-color: #107AB0;
+  border-radius: 50px;
+  border: solid 10px #107AB0;
+}
